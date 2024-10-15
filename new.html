@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<button id="button">click me</button>
+        <p id="para">______________</p>
+        <label for="nameInput">name:</label>
+        <input type="text" id="nameInput" placeholder="Enter you name">
+        <p id="focusmessage"></p>
+        <label for="colourselect">select a colour:</label>
+        <select name=""id""
+        <body>
+    <script>
+        let button= document.createElement("button");
+        button.textContent = "click me";
+        button.id = "btn";
+        document.body.appendChild(button);
+        let para = document.createElement("p");
+        para.textContent = "-----insert here-----";
+        para.id = "para"
+        document.body.appendChild(para);
+        
+        document.getElementById("button").onclick = function(){
+            document.getElementById("para").innerHTML = "Namaste"
+        }
+    </script>
+</body>
+</html>

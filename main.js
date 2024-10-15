@@ -1,3 +1,6 @@
-import { add,subtract,PT } from "./main.js";
+import { add,subtract,PT } from "./secind.js";
 
-import * as jadoo from "./main.js";
+import * as jadoo from "./secind.js";
+
+// Importing default export
+import multiply from "./secind.js";
