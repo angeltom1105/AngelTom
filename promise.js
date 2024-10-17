@@ -5,6 +5,6 @@ const Promise=new Promise((resolve, reject) => {
 });
 Promise.then(()=> {
     console.log("this is my promise");
-}).catch())=>{
+}).catch()) => {
     console.log("this is my error page");
-});
+})
